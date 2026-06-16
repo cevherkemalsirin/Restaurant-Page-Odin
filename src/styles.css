@@ -5,11 +5,11 @@ body{
 nav{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 120px;
     margin-top: 20px;
 }
 
-#content{
+.Home{
     height: 50vh;
     width: 50vw;
     margin: 50px auto;
@@ -21,20 +21,20 @@ nav{
 
 }
 
-#content h1{
+.Home h1{
     font-size: 5rem;
     grid-column: 1 / -1;
     grid-row: 1;
 }
 
-#content p{
+.Home p{
     grid-column: 2;
     grid-row: 2;
     font-size: 1.5rem;
     align-self: center;
 }
 
-#content img{
+.Home img{
     grid-column: 1;
     grid-row: 2;
     height: 500px;
@@ -47,6 +47,7 @@ nav button{
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    font-size: 2rem;
 }
 nav button:hover{
     background: linear-gradient(8deg, rgba(253, 29, 29, 1) 0%, rgba(246, 133, 3, 1) 65%, rgba(245, 143, 0, 1) 100%);

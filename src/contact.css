@@ -1,0 +1,12 @@
+
+.contact{
+  text-align: center;
+    margin: 50px auto;
+    width: 30vw;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical center */
+    align-items: center;     /* horizontal center */
+}

@@ -1,10 +1,11 @@
 import burgerImage from "./images/burger.webp";
 
-const body = document.body;
 export function LoadHomePage(){
-    if(body)
-    {
-      const div = document.getElementById("content");
+    const div = document.getElementById("content");
+    if(div) {
+        div.textContent = "";
+        div.className = "";
+        div.classList.add("Home");
        const h1 = document.createElement("h1");
         h1.textContent = "Porto Flame Chicken";
        const p = document.createElement("p");
